@@ -15,7 +15,7 @@ $settings__root_directory="/orsee";
 // url to web server document root (IP or domain name)
 // without trailing slash and the http://!
 //$settings__server_url="www.orsee.org";
-$settings__server_url="127.0.0.1";
+$settings__server_url="52.14.217.149";
 
 // servr protocol (either "http://" or "https://"
 $settings__server_protocol="http://";
@@ -28,9 +28,9 @@ $settings__server_protocol="http://";
 // Don't forget to create the database
 $site__database_host="localhost";
 //$site__database_port="3306"; // set only if not default 3306
-$site__database_database="orsee";
-$site__database_admin_username="orseeuser";
-$site__database_admin_password="orseeuser";
+$site__database_database="orsee_db";
+$site__database_admin_username="orsee_user";
+$site__database_admin_password="orsee_pw";
 $site__database_type="mysql";
 $site__database_table_prefix="or_";
 
@@ -43,9 +43,9 @@ date_default_timezone_set("America/Lima");
 // EMAIL MODULE
 // These settings are only needed when you plan to enable the email module
 // to retrieve emails from an external email account and process them in ORSEE
-$settings__email_server_type="smtp"; // either pop3 or imap
+$settings__email_server_type="imap"; // either pop3 or imap
 $settings__email_server_name="smtp.gmail.com";
-$settings__email_server_port=587; // if empty or not set, port is automatically determined by type
+$settings__email_server_port=465; // if empty or not set, port is automatically determined by type
 $settings__email_username="leex@pucp.edu.pe";
 $settings__email_password="Econo-lab-17";
 $settings__email_ssl=TRUE; // whether to use SSL to connect to IMAP/POP3 server (for gmail, use TRUE!)
