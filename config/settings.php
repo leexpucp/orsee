@@ -46,7 +46,7 @@ date_default_timezone_set("America/Lima");
 $settings__email_server_type="imap"; // either pop3 or imap
 $settings__email_server_name="smtp.gmail.com";
 $settings__email_server_port=465; // if empty or not set, port is automatically determined by type
-$settings__email_username="leex@pucp.edu.pe";
+$settings__email_username="leexpucp@gmail.com";
 $settings__email_password="Econo-lab-17";
 $settings__email_ssl=TRUE; // whether to use SSL to connect to IMAP/POP3 server (for gmail, use TRUE!)
 // E.g. for gmail, use TRUE for ssl setting. You may have to allow
