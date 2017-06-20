@@ -914,6 +914,12 @@ if (class_exists('PEAR_Error')) {
         {
             parent::PEAR_Error($message, $code, $mode, $options, $userinfo);
         }
+
+        public function Services_JSON_Error($message = 'unknown error', $code = null,
+                                     $mode = null, $options = null, $userinfo = null) {
+		self::__construct($message = 'unknown error', $code = null,
+                                     $mode = null, $options = null, $userinfo = null);
+	                                }
     }
 
 } else {
