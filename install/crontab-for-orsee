@@ -1,7 +1,7 @@
 # CronTab for ORSEE
 # edit the ORSEEROOT and PHPEXECUTABLE to fit your needs !
 
-ORSEEROOT=/srv/www/htdocs/orsee
+ORSEEROOT=/var/www/html/orsee
 PHPEXECUTABLE=/usr/bin/php
 SHELL=/bin/sh
 
@@ -9,4 +9,3 @@ SHELL=/bin/sh
 
 # cron services for ORSEE
 0,5,10,15,20,25,30,35,40,45,50,55 * * * *  test -r $ORSEEROOT/admin/cron.php && cd $ORSEEROOT/admin && $PHPEXECUTABLE -q $ORSEEROOT/admin/cron.php
-
