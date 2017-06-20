@@ -298,6 +298,7 @@ function calendar__display_calendar($admin = false){
             background: '.$calendar_month_background.';
             color: '.$calendar_month_font.';
         }
+
         .calendarTable>thead>tr>th {
             border: 0;
             border-bottom: 3px solid #E2E2E2;
@@ -306,10 +307,12 @@ function calendar__display_calendar($admin = false){
             font-weight: 600;
             padding: 0px 10px 0px 0px;
         }
+
         .calendarTable>thead>tr>th.monthTag{
             font-size: 13pt;
             height: 30px;
         }
+
         /* round corners */
         .calendarTable>thead>tr:first-child>th:only-child {
             -moz-border-radius: 10px 10px 0px 0px;
@@ -320,6 +323,7 @@ function calendar__display_calendar($admin = false){
         /* calendar rows and cells*/
         .calendarTable>tbody>tr {
         }
+
         .calendarTable>tbody>tr>td {
             border: 1px solid #C5C5C5;
             padding: 0;
@@ -331,9 +335,11 @@ function calendar__display_calendar($admin = false){
             text-align: left;
             vertical-align: top;
         }
+
         .calendarTable>tbody>tr .calendarCellRealDate{
             border: 2px solid #C5C5C5;
         }
+
         .calendarTable>tbody>tr>td .calendarCellHead {
             padding: 0;
             padding-left: 3px;
@@ -344,6 +350,7 @@ function calendar__display_calendar($admin = false){
             height: 17px;
             font-weight: bold;
         }
+
         .calendarTable>tbody>tr>td .calendarCellContent {
             padding: 0;
             padding-top: 3px;
@@ -359,9 +366,11 @@ function calendar__display_calendar($admin = false){
             -webkit-border-radius: 5px 20px 5px 5px;
             border-radius: 5px 20px 5px 5px;
         }
+
         .calendarTable>tbody>tr>td .calendarCellContent .calendarCellContentTitle {
             display: block;
         }
+        
         .calendarTable>tbody>tr>td .calendarCellContent span {
             display: block;
         }
