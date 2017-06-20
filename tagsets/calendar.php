@@ -320,9 +320,9 @@ function calendar__display_calendar($admin = false){
             border-radius: 10px 10px 0px 0px;
         }
 
-        /* calendar rows and cells*/
+        /* calendar rows and cells
         .calendarTable>tbody>tr {
-        }
+        }*/
 
         .calendarTable>tbody>tr>td {
             border: 1px solid #C5C5C5;
@@ -370,7 +370,7 @@ function calendar__display_calendar($admin = false){
         .calendarTable>tbody>tr>td .calendarCellContent .calendarCellContentTitle {
             display: block;
         }
-        
+
         .calendarTable>tbody>tr>td .calendarCellContent span {
             display: block;
         }
