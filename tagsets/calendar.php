@@ -376,20 +376,20 @@ function calendar__display_calendar($admin = false){
         }
 
         /* round corners */
-        .calendarTable>tbody>tr:last-child>td:first-child {
+        .calendarTable > tbody > tr:last-child > td:first-child {
             -moz-border-radius: 0px 0px 0px 10px;
             -webkit-border-radius: 0px 0px 0px 10px;
             border-radius: 0px 0px 0px 10px;
         }
 
-        .calendarTable>tbody>tr:last-child>td:last-child {
+        .calendarTable > tbody > tr:last-child > td:last-child {
              -moz-border-radius: 0px 0px 10px 0px;
              -webkit-border-radius: 0px 0px 10px 0px;
              border-radius: 0px 0px 10px 0px;
         }
 
         /* highlight today cell */
-        .calendarTable>tbody>tr>td.today {
+        .calendarTable > tbody > tr > td.today {
             border: 2px solid #F00;
         }
 
