@@ -320,7 +320,11 @@ function calendar__display_calendar($admin = false){
             border-radius: 10px 10px 0px 0px;
         }
 
-        .calendarTable>tbody>tr>td {
+        /* calendar rows and cells*/
+        .calendarTable > tbody > tr {
+        }
+
+        .calendarTable > tbody > tr > td {
             border: 1px solid #C5C5C5;
             padding: 0;
             margin: 0;
