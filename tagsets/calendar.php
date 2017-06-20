@@ -336,11 +336,11 @@ function calendar__display_calendar($admin = false){
             vertical-align: top;
         }
 
-        .calendarTable>tbody>tr .calendarCellRealDate{
+        .calendarTable>tbody > tr .calendarCellRealDate{
             border: 2px solid #C5C5C5;
         }
 
-        .calendarTable>tbody>tr>td .calendarCellHead {
+        .calendarTable > tbody > tr > td .calendarCellHead {
             padding: 0;
             padding-left: 3px;
             padding-right: 10px;
@@ -351,7 +351,7 @@ function calendar__display_calendar($admin = false){
             font-weight: bold;
         }
 
-        .calendarTable>tbody>tr>td .calendarCellContent {
+        .calendarTable > tbody > tr > td .calendarCellContent {
             padding: 0;
             padding-top: 3px;
             padding-bottom: 3px;
@@ -367,11 +367,11 @@ function calendar__display_calendar($admin = false){
             border-radius: 5px 20px 5px 5px;
         }
 
-        .calendarTable>tbody>tr>td .calendarCellContent .calendarCellContentTitle {
+        .calendarTable > tbody > tr > td .calendarCellContent .calendarCellContentTitle {
             display: block;
         }
 
-        .calendarTable>tbody>tr>td .calendarCellContent span {
+        .calendarTable > tbody > tr > td .calendarCellContent span {
             display: block;
         }
 
