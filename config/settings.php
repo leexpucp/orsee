@@ -15,7 +15,7 @@ $settings__root_directory="/orsee";
 // url to web server document root (IP or domain name)
 // without trailing slash and the http://!
 //$settings__server_url="www.orsee.org";
-$settings__server_url="52.14.217.149";
+$settings__server_url="13.59.135.212";
 
 // servr protocol (either "http://" or "https://"
 $settings__server_protocol="http://";
