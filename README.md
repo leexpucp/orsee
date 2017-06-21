@@ -58,8 +58,10 @@ service apache2 restart
 
 ### Step by Step
 Donwload orsee from: https://github.com/orsee/orsee/releases
+
 Unpack the orsee file in web server path:
 /var/www/html/
+
 Rename the directory to orsee:
 ```
 sudo mv orsee-3.0.x orsee
