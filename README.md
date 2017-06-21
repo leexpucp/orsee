@@ -2,7 +2,7 @@
 ### Install ORSEE
 To install orsee just follow this guide: http://www.orsee.org/web/install_notes.php
 
-### Pre requisitos
+### Pre requisites
 - a webserver (Apache preferred)
 ```
 sudo apt-get -y install apache2
@@ -43,7 +43,7 @@ Web server to configure automatically: <-- Select the option: apache2
 Configure database for phpmyadmin with dbconfig-common? <-- Yes
 MySQL application password for phpmyadmin: root or any password you want.
 ```
-Configure apahce to use phpmyadmin:
+Configure apache to use phpmyadmin:
 ```
 Open apache2.conf:
 sudo nano /etc/apache2/apache2.conf
@@ -54,4 +54,17 @@ Include /etc/phpmyadmin/apache.conf
 
 Restart apache2 service:
 service apache2 restart
+```
+
+### Step by Step
+Donwload orsee from: https://github.com/orsee/orsee/releases
+Unpack the orsee file in web server path:
+/var/www/html/
+Rename the directory to orsee:
+```
+sudo mv orsee-3.0.x orsee
+```
+Enter to 'install' directory
+```
+cd orsee/install
 ```
