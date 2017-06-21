@@ -5,7 +5,7 @@ To install orsee just follow this guide: http://www.orsee.org/web/install_notes.
 ### Pre requisitos
 - a webserver (Apache preferred)
 ```
-sudo apt-get install apache2
+sudo apt-get -y install apache2
 ```
 
 - PHP >=5 both as apache module (apache2-mod_php5) and on commandline
@@ -22,4 +22,36 @@ sudo apt-get -y install mysql-server mysql-client
 ```
 
 - cronjob access
+Show if you have crontab:
+```
+crontab -l
+```
 - webalizer for web traffic analysis, of required.
+
+(Optional)
+- SSL
+```
+sudo a2enmod ssl
+sudo a2ensite default-ssl
+systemctl restart apache2
+```
+- phpMyAdmin
+```
+sudo apt-get -y install phpmyadmin
+
+Web server to configure automatically: <-- Select the option: apache2
+Configure database for phpmyadmin with dbconfig-common? <-- Yes
+MySQL application password for phpmyadmin: root or any password you want.
+```
+Configure apahce to use phpmyadmin:
+```
+Open apache2.conf:
+sudo nano /etc/apache2/apache2.conf
+
+Add the following to the bottom of the file:
+# phpMyAdmin Configuration
+Include /etc/phpmyadmin/apache.conf
+
+Restart apache2 service:
+service apache2 restart
+```
