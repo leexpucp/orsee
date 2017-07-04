@@ -70,3 +70,20 @@ Enter to 'install' directory
 ```
 cd orsee/install
 ```
+Enter mysql and create the mysql database. (You will need the privileges to add a database.)
+
+```
+mysql -u root -p
+```
+You will be ask by the password for mysql.
+When you enter to mysql.
+```
+ mysql> CREATE DATABASE orseedbname DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+   mysql> GRANT ALL PRIVILEGES ON orseedbname.* TO orseedbusername@localhost IDENTIFIED BY orseeuserdbpassword';
+   mysql> FLUSH PRIVILEGES;
+   mysql> quit
+```
+Import the default database structure.
+```
+mysql orseedbname -u orseedbusername -p orseeuserdbpassword < install.sql
+```
