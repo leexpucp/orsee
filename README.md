@@ -62,6 +62,12 @@ Donwload orsee from: https://github.com/orsee/orsee/releases
 Unpack the orsee file in web server path:
 /var/www/html/
 
+or clone the repository in web server path:
+/var/www/html/
+```
+sudo git clone "url-from-github"
+```
+
 Rename the directory to orsee:
 ```
 sudo mv orsee-3.0.x orsee
@@ -124,6 +130,8 @@ sudo /etc/init.d/sendmail restart
 sudo nano /etc/mail/local-host-names
 ```
 You need to see this lines, if not add it.
+```
 localhost.localdomain   RELAY
 localhost               RELAY
 127.0.0.1               RELAY
+```
