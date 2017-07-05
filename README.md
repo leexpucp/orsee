@@ -81,6 +81,7 @@ When you enter to mysql.
 mysql> CREATE DATABASE orseedbname DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 mysql> GRANT ALL PRIVILEGES ON orseedbname.* TO orseedbusername@localhost IDENTIFIED BY orseeuserdbpassword';
 mysql> FLUSH PRIVILEGES;
+mysql> SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 mysql> quit
 ```
 Import the default database structure.
@@ -105,3 +106,24 @@ Make sure that the 'usage' directory is writable for the user under which the cr
 cd ..
 sudo chmod u+w usage
 ```
+Browse to your ORSEE installation: http://yourorseewebpath/admin. for example: http://econlab.pucp.edu.pe/orsee/admin
+
+Login with username 'orsee_install' and password 'install'.
+
+Configure the email.
+```
+sudo apt-get install sendmail-bin
+sudo apt-get install sendmail
+```
+To enable sendmail to use STARTTLS, you need to:
+Add this line to /etc/mail/sendmail.mc and optionally to /etc/mail/submit.mc:
+  include(`/etc/mail/tls/starttls.m4')dnl
+```
+sudo sendmailconfig
+sudo /etc/init.d/sendmail restart
+sudo nano /etc/mail/local-host-names
+```
+You need to see this lines, if not add it.
+localhost.localdomain   RELAY
+localhost               RELAY
+127.0.0.1               RELAY
