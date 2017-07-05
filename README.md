@@ -78,12 +78,30 @@ mysql -u root -p
 You will be ask by the password for mysql.
 When you enter to mysql.
 ```
- mysql> CREATE DATABASE orseedbname DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-   mysql> GRANT ALL PRIVILEGES ON orseedbname.* TO orseedbusername@localhost IDENTIFIED BY orseeuserdbpassword';
-   mysql> FLUSH PRIVILEGES;
-   mysql> quit
+mysql> CREATE DATABASE orseedbname DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+mysql> GRANT ALL PRIVILEGES ON orseedbname.* TO orseedbusername@localhost IDENTIFIED BY orseeuserdbpassword';
+mysql> FLUSH PRIVILEGES;
+mysql> quit
 ```
 Import the default database structure.
 ```
 mysql orseedbname -u orseedbusername -p orseeuserdbpassword < install.sql
+```
+
+Install the crontab named 'crontab-for-orsee'. 
+Edit the settings in this file to match your needs.
+```
+crontab crontab-for-orsee
+```
+Copy settings-dist.php to 'config' directory and rename to 'settings.php'.
+```
+cp settings-dist.php ../config/settings.php
+cd ../config/
+```
+If you need it, edit the few settings in 'settings.php'.
+
+Make sure that the 'usage' directory is writable for the user under which the cronjob is running. The webalizer output will be saved there by the server.
+```
+cd ..
+sudo chmod u+w usage
 ```
