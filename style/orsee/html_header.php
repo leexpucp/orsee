@@ -8,14 +8,14 @@
         </TD>
         <TD WIDTH="70%" BGCOLOR="#html_header_top_bar_background#">
             <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
-            <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
+            <!-- <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
                 <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
-            </TD></TR>
+            </TD></TR> -->
             <TR><TD VALIGN="MIDDLE" ALIGN="RIGHT" style="border-radius: 0px 0px 0px 20px; background: #html_header_logo_bar_background#;">
                     <IMG SRC="../style/orsee/logo_pucp.png" BORDER="0">&nbsp;
             </TD></TR>
             <TR><TD HEIGHT="19" valign="middle" align="right">
-                <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">THE EASE OF RECRUITMENT</FONT>
+                <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
             </TD></TR>
             </TABLE>
         </TD>
