@@ -4,18 +4,18 @@
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
     <TR VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#html_header_top_bar_background#">
         <TD WIDTH="30%" ALIGN="LEFT" VALIGN="MIDDLE">
-            <IMG border="0" SRC="../style/orsee/orsee3_sign.png">
+            <IMG border="0" SRC="../style/orsee/logo_pucp.png">
         </TD>
         <TD WIDTH="70%" BGCOLOR="#html_header_top_bar_background#">
             <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
-            <!-- <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
+            <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
                 <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
-            </TD></TR> -->
+            </TD></TR>
             <TR><TD VALIGN="MIDDLE" ALIGN="RIGHT" style="border-radius: 0px 0px 0px 20px; background: #html_header_logo_bar_background#;">
-                    <IMG SRC="../style/orsee/logo_pucp.png" BORDER="0">&nbsp;
+                    <IMG SRC="../style/orsee/orsee3_logo.png" BORDER="0">&nbsp;
             </TD></TR>
             <TR><TD HEIGHT="19" valign="middle" align="right">
-                <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
+                <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">THE EASE OF RECRUITMENT</FONT>
             </TD></TR>
             </TABLE>
         </TD>
