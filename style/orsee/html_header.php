@@ -4,13 +4,13 @@
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
     <TR VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#html_header_top_bar_background#">
         <TD WIDTH="30%" ALIGN="LEFT" VALIGN="MIDDLE">
-            <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
+            <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">LABORATORIO DE ECONOMÍA EXPERIMENTAL // LEEX-PUCP</FONT>
             <!--<IMG border="0" SRC="../style/orsee/logo_pucp.png">-->
         </TD>
         <TD WIDTH="70%" BGCOLOR="#html_header_top_bar_background#">
             <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
             <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
-                <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>
+                <!--<P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>-->
             </TD></TR>
             <TR><TD VALIGN="MIDDLE" ALIGN="RIGHT" style="border-radius: 0px 0px 0px 20px; background: #html_header_logo_bar_background#;">
                     <IMG SRC="../style/orsee/logo_pucp.png" BORDER="0">&nbsp;
