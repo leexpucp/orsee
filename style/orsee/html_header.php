@@ -26,7 +26,8 @@
             </TD>-->
             </TR>
             <TR><TD HEIGHT="19" valign="middle" align="right">
-                <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">THE EASE OF RECRUITMENT</FONT>
+                <!--<FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">THE EASE OF RECRUITMENT</FONT>-->
+                <IMG SRC="../style/orsee/orsee3_logo.png" BORDER="0">&nbsp;
             </TD></TR>
             </TABLE>
         </TD>
