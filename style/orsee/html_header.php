@@ -4,18 +4,27 @@
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
     <TR VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#html_header_top_bar_background#">
         <TD WIDTH="30%" ALIGN="LEFT" VALIGN="MIDDLE">
-            <P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">LABORATORIO DE ECONOMÍA EXPERIMENTAL // LEEX-PUCP</FONT>
-            <!--<IMG border="0" SRC="../style/orsee/logo_pucp.png">-->
+            <!--<P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">LABORATORIO DE ECONOMÍA EXPERIMENTAL // LEEX-PUCP</FONT>-->
+            <IMG border="0" SRC="../style/orsee/protologoleex.png">
         </TD>
         <TD WIDTH="70%" BGCOLOR="#html_header_top_bar_background#">
             <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
             <TR><TD HEIGHT="19" ALIGN="RIGHT" VALIGN="BOTTOM" bgcolor="#html_header_logo_bar_background#">
                 <!--<P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">ONLINE RECRUITMENT SYSTEM FOR ECONOMIC EXPERIMENTS</FONT>-->
             </TD></TR>
-            <TR><TD VALIGN="MIDDLE" ALIGN="RIGHT" style="border-radius: 0px 0px 0px 20px; background: #html_header_logo_bar_background#;">
+            <TR>
+
+            <TD valign="MIDDLE" align="CENTER" style="height: 100px; border-radius: 0px 0px 0px 20px; background: #0a578b;">
+					<span style="color: #ffffff; font-size: 20pt; font-face: Helvetica; font-weight:  bold;">Laboratorio de Economía<br>Conductual y experimental</span>
+			</TD>
+			<TD valign="MIDDLE" align="CENTER" style="border-radius: 0px 0px 0px 0px; background: #0a578b;">
+					<img src="../style/orsee/logo_pucp.png" border="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</TD>
+            <!--<TD VALIGN="MIDDLE" ALIGN="RIGHT" style="border-radius: 0px 0px 0px 20px; background: #html_header_logo_bar_background#;">
                     <IMG SRC="../style/orsee/logo_pucp.png" BORDER="0">&nbsp;
-                    <!--<IMG SRC="../style/orsee/orsee3_logo.png" BORDER="0">&nbsp;-->
-            </TD></TR>
+                    <!--<IMG SRC="../style/orsee/orsee3_logo.png" BORDER="0">&nbsp;
+            </TD>-->
+            </TR>
             <TR><TD HEIGHT="19" valign="middle" align="right">
                 <FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">THE EASE OF RECRUITMENT</FONT>
             </TD></TR>
