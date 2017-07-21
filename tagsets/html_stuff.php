@@ -147,6 +147,7 @@ echo '>
 function html__footer() {
 
 echo '
+powered by orsee
 </BODY>
 </HTML>';
 
