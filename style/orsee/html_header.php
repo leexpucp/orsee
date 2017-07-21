@@ -3,7 +3,7 @@
 <center>
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
     <TR VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#html_header_top_bar_background#">
-        <TD WIDTH="30%" ALIGN="LEFT" VALIGN="MIDDLE">
+        <TD WIDTH="30%" ALIGN="MIDDLE" VALIGN="MIDDLE">
             <!--<P><FONT face="Arial" size="1" class="small" COLOR="#FFFFFF">LABORATORIO DE ECONOMÍA EXPERIMENTAL // LEEX-PUCP</FONT>-->
             <IMG id="leex-img" border="0" SRC="../style/orsee/protologoleex.png">
         </TD>
