@@ -445,6 +445,6 @@ table.or_message {
 #leex-img {
     height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 50%; 
+    max-height: 50%;
 }
