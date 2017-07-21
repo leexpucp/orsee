@@ -443,7 +443,7 @@ table.or_message {
 }
 
 #leex-img {
-    height: auto; 
+    /*height: auto; */
     width: auto; 
     max-width: 175px; 
     /*max-height: 175px;*/
