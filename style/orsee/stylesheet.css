@@ -1,7 +1,3 @@
-<style type="text/css">
-
-<!--
-
 /* general body settings */
 body {
 	margin-top: 0px;
@@ -446,4 +442,9 @@ table.or_message {
 	font-weight: normal;
 }
 
-//-->
+#leex-img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
