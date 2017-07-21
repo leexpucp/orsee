@@ -15,7 +15,7 @@
             <TR>
 
             <TD valign="MIDDLE" align="CENTER" style="height: 100px; border-radius: 0px 0px 0px 20px; background: #0a578b;">
-					<span style="color: #ffffff; font-size: 20pt; font-face: Helvetica; font-weight:  bold;">Laboratorio de Economía<br>Conductual y experimental</span>
+					<span style="color: #ffffff; font-size: 20pt; font-face: Helvetica; font-weight:  bold;">Laboratorio de Economía<br>Experimental</span>
 			</TD>
 			<TD valign="MIDDLE" align="CENTER" style="border-radius: 0px 0px 0px 0px; background: #0a578b;">
 					<img src="../style/orsee/logo_pucp.png" border="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

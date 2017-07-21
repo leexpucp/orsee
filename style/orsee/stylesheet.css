@@ -446,5 +446,5 @@ table.or_message {
     height: auto; 
     width: auto; 
     max-width: 175px; 
-    max-height: 175px;
+    /*max-height: 175px;*/
 }
