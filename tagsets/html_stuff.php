@@ -57,6 +57,7 @@ function html__mobile_header() {
 
 function html__mobile_footer() {
     echo '
+    Powered by <a href="http://www.orsee.org/web/" target="_blank">Orsee</a>
     </body>
     </html>';
 }
@@ -145,9 +146,8 @@ echo '>
 
 
 function html__footer() {
-
 echo '
-powered by orsee
+Powered by <a href="http://www.orsee.org/web/" target="_blank">Orsee</a>
 </BODY>
 </HTML>';
 
