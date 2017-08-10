@@ -67,7 +67,9 @@ if ($proceed) {
                 unset ($_SESSION['subpool_id']);
                 redirect ("public/");
             } else {
-                echo '<center><BR><BR>
+                echo '<center><BR>
+                    Términos y condiciones de uso
+                    <BR>
                       <FORM action='.thisdoc().'>
                       <TABLE class="or_panel" style="width: 80%">';
                 if ($settings['registration__require_rules_acceptance']=='y') {
