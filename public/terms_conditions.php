@@ -6,7 +6,6 @@ $title="terms_conditions";
 include ("header.php");
 if ($proceed) {
     echo '<center>
-            <FORM action='.thisdoc().'>
             <TABLE class="or_panel" style="width: 80%">';
     if ($settings['registration__require_rules_acceptance']=='y') {
         echo '<TR><TD>
