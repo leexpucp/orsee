@@ -5,55 +5,6 @@ $menu__area="terms_conditions";
 $title="terms_conditions";
 include ("header.php");
 
-// if ($proceed) {
-//     // check for sub-subject pool
-//     if (!(isset($_SESSION['subpool_id']))) {
-//         // get available subpools
-//         $subpools=subpools__get_subpools();
-//         $all_avail_pool_ids=array();
-//         foreach ($subpools as $pool) {
-//             if ($pool['subpool_id']>1 && $pool['show_at_registration_page']=='y') {
-//                 $all_pool_ids[]=$pool['subpool_id'];
-//             }
-//         }
-
-//         if (isset($_REQUEST['s']) && $_REQUEST['s']) {
-//             if (in_array(trim($_REQUEST['s']),$all_pool_ids)) {
-//                 // set subpool
-//                 $_SESSION['subpool_id']=trim($_REQUEST['s']);
-//                 redirect("public/".thisdoc());
-//             } else {
-//                 redirect("public/".thisdoc());
-//             }
-//         } else {
-//             if (count($all_pool_ids)<=1 && $settings['subpool_default_registration_id']) {
-//                 $_SESSION['subpool_id']=$settings['subpool_default_registration_id'];
-//                 redirect("public/".thisdoc());
-//             } elseif (count($all_pool_ids)==1 && !$settings['subpool_default_registration_id']) {
-//                 $_SESSION['subpool_id']=$all_pool_ids[0];
-//                 redirect ("public/".thisdoc());
-//             } elseif (count($all_pool_ids)==0 && !$settings['subpool_default_registration_id']) {
-//                 $_SESSION['subpool_id']=1;
-//                 redirect ("public/".thisdoc());
-//             } else {
-//                 $self_descriptions=array();
-//                 $query="SELECT * from ".table('lang')."
-//                         WHERE content_type='subjectpool'";
-//                 $result=or_query($query);
-//                 while ($line=pdo_fetch_assoc($result)) $self_descriptions[$line['content_name']]=$line[lang('lang')];
-
-//                 echo '<BR><BR><center>
-//                         <TABLE class="or_formtable" style="width: 80%"><TR><TD align="center">
-//                             <B>'.lang('please_choose_subgroup').'</B><BR><BR>';
-//                 foreach ($all_pool_ids as $subpool_id) {
-//                     echo '<A HREF="'.thisdoc().'?s='.$subpool_id.'">'.$self_descriptions[$subpool_id].'</A><BR><BR>';
-//                 }
-//                 echo '</TD></TR></TABLE><BR><BR><BR></center>';
-//             }
-//         }
-//         $proceed=false;
-//     }
-// }
 
 if ($proceed) {
     // check for rules
@@ -202,31 +153,31 @@ if ($proceed) {
     }
 }
 
-if ($proceed) {
+// if ($proceed) {
 
-    echo '<CENTER>
-            <TABLE class="or_formtable" style="width: auto;"><TR><TD>';
-    show_message();
-    $_REQUEST['subpool_id']=$_SESSION['subpool_id'];
+//     echo '<CENTER>
+//             <TABLE class="or_formtable" style="width: auto;"><TR><TD>';
+//     show_message();
+//     $_REQUEST['subpool_id']=$_SESSION['subpool_id'];
 
-    $extra=''; $pwfields=''; $captcha='';
-    if ($settings['subject_authentication']!='token') {
-        if (isset($_SESSION['pauthdata']['pw_provided']) && $_SESSION['pauthdata']['pw_provided']) {
-                $pwfields.=participant__password_form_fields(false,true);
-        } else {
-                $pwfields.=participant__password_form_fields(false,false);
-        }
-    }
-    $captcha='<TR><TD>'.lang('captcha_text').'<br><IMG src="captcha.php"><BR>
-            <INPUT type="text" name="captcha" size="8" maxlength="8" value="">
-            </TD></TR>';
-    if ($pwfields || $captcha) $extra='<TABLE width="400px"><TR><TD>&nbsp;</TD></TR>'.
-        $pwfields.$captcha.'</TABLE>';
-    else $extra='';
-    participant__show_form($_REQUEST,lang('submit'),$errors__dataform,false,$extra);
-    echo '</TD></TR></TABLE></center>';
+//     $extra=''; $pwfields=''; $captcha='';
+//     if ($settings['subject_authentication']!='token') {
+//         if (isset($_SESSION['pauthdata']['pw_provided']) && $_SESSION['pauthdata']['pw_provided']) {
+//                 $pwfields.=participant__password_form_fields(false,true);
+//         } else {
+//                 $pwfields.=participant__password_form_fields(false,false);
+//         }
+//     }
+//     $captcha='<TR><TD>'.lang('captcha_text').'<br><IMG src="captcha.php"><BR>
+//             <INPUT type="text" name="captcha" size="8" maxlength="8" value="">
+//             </TD></TR>';
+//     if ($pwfields || $captcha) $extra='<TABLE width="400px"><TR><TD>&nbsp;</TD></TR>'.
+//         $pwfields.$captcha.'</TABLE>';
+//     else $extra='';
+//     participant__show_form($_REQUEST,lang('submit'),$errors__dataform,false,$extra);
+//     echo '</TD></TR></TABLE></center>';
 
-}
+// }
 
 include("footer.php");
 ?>
