@@ -15,7 +15,7 @@ if ($proceed) {
                 $_SESSION['rules']=true;
                 redirect ("public/".thisdoc());
             } else {
-                echo '<center><BR><BR>
+                echo '
                       <FORM action='.thisdoc().'>
                       <TABLE class="or_panel" style="width: 80%">';
                 if ($settings['registration__require_rules_acceptance']=='y') {
@@ -38,20 +38,6 @@ if ($proceed) {
                     </TD></TR>
                             <TR><TD>'.content__get_content("privacy_policy").'</TD></TR>';
                 }
-                // echo '<TR><TD>
-                //         <TABLE width="100%" border=0 class="or_panel_title"><TR>
-                //         <TD style="background: '.$color['panel_title_background'].'; color: '.$color['panel_title_textcolor'].'">
-                //             '.lang('do_you_agree_rules_privacy').'
-                //         </TD>
-                //         </TR></TABLE>
-                //     </TD></TR>
-                //         <TR><TD align=center>
-                //             <INPUT class="button" type="submit" name="accept_rules" value="'.lang('yes').'">&nbsp;&nbsp;&nbsp;
-                //             <INPUT class="button" type="submit" name="notaccept_rules" value="'.lang('no').'">
-                //         </TD></TR>
-                //     </TABLE>
-                //     </FORM>
-                //     </center>';
             }
         } else {
             $_SESSION['rules']=true;
