@@ -27,6 +27,12 @@ if ($proceed) {
         </TD></TR>
                 <TR><TD>'.content__get_content("privacy_policy").'</TD></TR>';
     }
+    echo '<TR><TD>
+
+        </TD></TR>
+
+        </TABLE>
+        </center>';
 }
 
 include("footer.php");
