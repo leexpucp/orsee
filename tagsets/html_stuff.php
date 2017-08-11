@@ -456,6 +456,15 @@ if ($settings['subject_authentication']!='token') {
                             'show_if_not_logged_in'=>1,
                             'show_if_logged_in'=>1
                             );
+    $menu[]=            array(
+                            'menu_area'=>'terms_conditions',
+                            'entrytype'=>'headlink',
+                            'lang_item'=>'terms_conditions',
+                            'link'=>'/public/terms_conditions.php',
+                            'icon'=>'',
+                            'show_if_not_logged_in'=>1,
+                            'show_if_logged_in'=>1
+                            );
 $menu[]=            array(
                             'menu_area'=>'rules',
                             'entrytype'=>'headlink',
@@ -500,15 +509,6 @@ $menu[]=            array(
                             'entrytype'=>'link',
                             'lang_item'=>'contact',
                             'link'=>'/public/contact.php',
-                            'icon'=>'',
-                            'show_if_not_logged_in'=>1,
-                            'show_if_logged_in'=>1
-                            );
-$menu[]=            array(
-                            'menu_area'=>'terms_conditions',
-                            'entrytype'=>'link',
-                            'lang_item'=>'terms_conditions',
-                            'link'=>'/public/terms_conditions.php',
                             'icon'=>'',
                             'show_if_not_logged_in'=>1,
                             'show_if_logged_in'=>1
