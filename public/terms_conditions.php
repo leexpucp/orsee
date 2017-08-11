@@ -5,7 +5,7 @@ $menu__area="terms_conditions";
 $title="terms_conditions";
 include ("header.php");
 if ($proceed) {
-    echo '<center>
+    echo '<center><BR><BR>
             <TABLE class="or_panel" style="width: 80%">';
     if ($settings['registration__require_rules_acceptance']=='y') {
         echo '<TR><TD>

@@ -68,7 +68,7 @@ if ($proceed) {
                 redirect ("public/");
             } else {
                 echo '<center><BR>
-                    Términos y condiciones de uso
+                    <h1>Términos y condiciones de uso</h1>
                     <BR>
                       <FORM action='.thisdoc().'>
                       <TABLE class="or_panel" style="width: 80%">';
