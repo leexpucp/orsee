@@ -9,9 +9,7 @@ include ("header.php");
 if ($proceed) {
     // check for rules
     if (!isset($_SESSION['rules'])) {
-        if ($settings['registration__require_rules_acceptance']=='y' ||
-            $settings['registration__require_privacy_policy_acceptance']=='y') {
-            echo '<center><BR><BR>
+            echo '<center>
                     <FORM action='.thisdoc().'>
                     <TABLE class="or_panel" style="width: 80%">';
             if ($settings['registration__require_rules_acceptance']=='y') {
@@ -34,11 +32,6 @@ if ($proceed) {
                 </TD></TR>
                         <TR><TD>'.content__get_content("privacy_policy").'</TD></TR>';
             }
-            
-        } else {
-            $_SESSION['rules']=true;
-            redirect ("public/".thisdoc());
-        }
         $proceed=false;
     }
 }
