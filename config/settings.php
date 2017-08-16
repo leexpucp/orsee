@@ -11,7 +11,7 @@ $settings__root_to_server="/srv/www/htdocs";
 // begins always with "/" if in a subdirectory
 // no trailing slash!
 // $settings__root_directory="/orsee";
-$settings__root_directory="/";
+$settings__root_directory="/orsee";
 
 
 // url to web server document root (IP or domain name)
