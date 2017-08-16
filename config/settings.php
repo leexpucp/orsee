@@ -10,12 +10,14 @@ $settings__root_to_server="/srv/www/htdocs";
 // Experiment system root relative to server root, e.g. /orsee
 // begins always with "/" if in a subdirectory
 // no trailing slash!
-$settings__root_directory="/orsee";
+// $settings__root_directory="/orsee";
+$settings__root_directory="/";
+
 
 // url to web server document root (IP or domain name)
 // without trailing slash and the http://!
 //$settings__server_url="www.orsee.org";
-$settings__server_url="13.59.135.212";
+$settings__server_url="13.59.129.5";
 
 // servr protocol (either "http://" or "https://"
 $settings__server_protocol="http://";
